@@ -1,0 +1,16 @@
+# GT911 touch controller configuration as shipped on this board (read 2026-11-05, before any write).
+# 186 bytes from register 0x8047: 184 config bytes, checksum (0x80FF), load flag (0x8100).
+# Writing these back with the load flag set to 01 restores the factory setup.
+# Version 0x4F; X/Y max 480; press threshold 0x50 (80) at 0x8053, release 0x3C (60) at 0x8054.
+8047: 4f e0 01 e0 01 05 35 00 01 c8 28 0f 50 3c 03 05
+8057: 00 00 00 00 00 00 00 18 1a 1e 14 85 25 0a ea ec
+8067: b5 06 00 00 00 20 21 10 00 01 00 0f 00 2a 00 00
+8077: 01 50 32 dc fa 94 d0 02 08 00 00 04 80 de 00 80
+8087: e4 00 80 ea 00 7f f0 00 7f f6 00 7f 00 00 00 00
+8097: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80A7: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+80B7: 14 12 10 0e 0c 0a 08 06 04 02 ff ff ff ff ff ff
+80C7: ff ff ff ff ff ff ff ff ff ff ff ff ff ff 21 20
+80D7: 1f 1e 1d 00 02 04 06 08 ff ff ff ff ff ff ff ff
+80E7: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+80F7: ff ff ff ff ff ff ff ff aa 00

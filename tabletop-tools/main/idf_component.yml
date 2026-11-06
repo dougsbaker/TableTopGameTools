@@ -1,0 +1,9 @@
+## IDF Component Manager Manifest File
+## Versions pinned to match Waveshare's validated examples/esp-idf/02_lvgl_demo_v9.
+dependencies:
+  idf: ">=5.3"
+  waveshare/esp32_s3_touch_lcd_4b:
+    version: "2.0.0"
+  lvgl/lvgl:
+    version: "9.5.0"
+    public: true
